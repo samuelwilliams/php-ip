@@ -28,6 +28,7 @@ $config = PhpCsFixer\Config::create()
             'less_and_greater' => false,
         ],
         'declare_strict_types' => true,
+        'no_superfluous_phpdoc_tags' => false,
     ])
     ->setFinder($finder)
 ;
